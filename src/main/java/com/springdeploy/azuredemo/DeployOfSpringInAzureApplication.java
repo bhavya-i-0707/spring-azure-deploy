@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DeployOfSpringInAzureApplication {
 	@GetMapping("/message")
     public String message(){
-	return "Your is deployed successfully !!";
+	return "Hello!!! Your is deployed successfully";
     }
 	public static void main(String[] args) {
 		SpringApplication.run(DeployOfSpringInAzureApplication.class, args);
